@@ -1,0 +1,6 @@
+devel_space: /home/ramf30/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel
+install: false
+install_space: /home/ramf30/Documents/RoboticaIndustrial/Proyecto/ros_ws/install
+profile: default
+source_space: /home/ramf30/Documents/RoboticaIndustrial/Proyecto/ros_ws/src
+workspace: /home/ramf30/Documents/RoboticaIndustrial/Proyecto/ros_ws

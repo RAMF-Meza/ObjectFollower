@@ -1,0 +1,12 @@
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./local_setup.sh
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./setup.sh
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./env.sh
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./setup.zsh
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./_setup_util.py
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./local_setup.bash
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./cmake.lock
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./local_setup.zsh
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./setup.bash
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

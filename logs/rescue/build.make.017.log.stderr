@@ -1,0 +1,51 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:22:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   22 |         direction([01;31m[Kint[m[K dir);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint direction(int)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:35:15:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   35 |     std_msgs::[01;31m[KInt8[m[K msg;
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:40:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   40 |         std::cout << "You have selected: Stop\n"
+      |                                                 [01;31m[K^[m[K
+      |                                                 [32m[K;[m[K
+   41 |         [32m[Kmsg[m[K.data = 5;
+      |         [32m[K~~~[m[K                                      
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_pub[m[K’ was not declared in this scope
+   42 |         [01;31m[Ktopic_pub[m[K.publish(msg);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:42:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   42 |         topic_pub.publish([01;31m[Kmsg[m[K);
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:46:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   46 |         std::cout << "You have selected: Forward\n"
+      |                                                    [01;31m[K^[m[K
+      |                                                    [32m[K;[m[K
+   47 |         [32m[Kmsg[m[K.data = 8;
+      |         [32m[K~~~[m[K                                         
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:51:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   51 |         std::cout << "You have selected: Right\n"
+      |                                                  [01;31m[K^[m[K
+      |                                                  [32m[K;[m[K
+   52 |         [32m[Kmsg[m[K.data = 6;
+      |         [32m[K~~~[m[K                                       
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:56:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   56 |         std::cout << "You have selected: Left\n"
+      |                                                 [01;31m[K^[m[K
+      |                                                 [32m[K;[m[K
+   57 |         [32m[Kmsg[m[K.data = 4;
+      |         [32m[K~~~[m[K                                      
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:61:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   61 |         std::cout << "You have selected: Backward\n"
+      |                                                     [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+   62 |         [32m[Kmsg[m[K.data = 5;
+      |         [32m[K~~~[m[K                                          
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:71:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   71 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/reference_node.dir/build.make:63: CMakeFiles/reference_node.dir/src/reference_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:870: CMakeFiles/reference_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

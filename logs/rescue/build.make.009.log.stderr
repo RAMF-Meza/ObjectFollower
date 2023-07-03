@@ -1,0 +1,28 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:16:43:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   16 |     ros::Publisher point_pub = node_comms.[01;31m[Kadvertise<geometry_msgs::PointStamped.h>[m[K("point",1);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:16:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [6], int)[m[K’
+   16 |     ros::Publisher point_pub = node_comms.advertise<geometry_msgs::PointStamped.h>("point",1[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:16:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     ros::Publisher point_pub = node_comms.advertise<geometry_msgs::PointStamped.h>("point",1[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:16:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     ros::Publisher point_pub = node_comms.advertise<geometry_msgs::PointStamped.h>("point",1[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/publisher_node.dir/build.make:63: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:729: CMakeFiles/publisher_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

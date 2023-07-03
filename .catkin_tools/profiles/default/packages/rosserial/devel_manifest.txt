@@ -1,0 +1,2 @@
+rosserial/rosserial
+/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rosserial/cmake.lock /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./cmake.lock

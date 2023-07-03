@@ -1,0 +1,14 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:37:26:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+   37 |         x_coor = [01;31m[Ktracking()[m[K;
+      |                  [01;31m[K~~~~~~~~^~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K At global scope:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:53:5:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint tracking()[m[K’
+   53 | int [01;31m[Ktracking[m[K()
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:18:6:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid tracking()[m[K’
+   18 | void [01;36m[Ktracking[m[K();
+      |      [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/reference_node.dir/build.make:63: CMakeFiles/reference_node.dir/src/reference_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/reference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

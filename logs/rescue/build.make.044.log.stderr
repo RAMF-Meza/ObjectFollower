@@ -1,0 +1,21 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:34:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kimt[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+   34 |     image_transport::Subscriber img_sub = [01;31m[Kimt[m[K.subscribe("/topic_name", 1, imgCallback);
+      |                                           [01;31m[K^~~[m[K
+      |                                           [32m[Kint[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kvoid imgCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:96:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kwindow_name[m[K’ was not declared in this scope
+   96 |         cv::namedWindow([01;31m[Kwindow_name[m[K, cv::WINDOW_AUTOSIZE);
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:100:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[Kread[m[K’
+  100 |             image_msg.[01;31m[Kread[m[K(input_frame); // Leer la imagen guardada ES UNA FUNCION BLOQUEANTE
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:127:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_val[m[K’ was not declared in this scope
+  127 |                     [01;31m[Kx_val[m[K = moments.m10/moments.m00;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:128:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_val[m[K’ was not declared in this scope
+  128 |                     [01;31m[Ky_val[m[K = moments.m01/moments.m00;
+      |                     [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/reference_node.dir/build.make:63: CMakeFiles/reference_node.dir/src/reference_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/reference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,28 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:13:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::String_<std::allocator<void> >::String_(const char [12], int)[m[K’
+   13 |     ros::Publisher topic_pub = node_comms.advertise<std_msgs::String("itesm_topic", 1[01;31m[K)[m[K; //(A donde se publicara, cantidad de mensajes a publicar)
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:29:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::String_<ContainerAllocator>::String_(const ContainerAllocator&) [with ContainerAllocator = std::allocator<void>][m[K’
+   29 |   [01;36m[KString_[m[K(const ContainerAllocator& _alloc)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:29:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:26:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::String_<ContainerAllocator>::String_() [with ContainerAllocator = std::allocator<void>][m[K’
+   26 |   [01;36m[KString_[m[K()
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:26:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::String_<std::allocator<void> >::String_(const std_msgs::String_<std::allocator<void> >&)[m[K’
+   22 | struct [01;36m[KString_[m[K
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:22:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::String_<std::allocator<void> >::String_(std_msgs::String_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/std_msgs/String.h:22:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:13:43:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   13 |     ros::Publisher topic_pub = node_comms.[01;31m[Kadvertise<std_msgs::String("itesm_topic", 1)[m[K; //(A donde se publicara, cantidad de mensajes a publicar)
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/publisher.cpp:13:43:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[K<unresolved overloaded function type>[m[K’ to non-scalar type ‘[01m[Kros::Publisher[m[K’ requested
+   13 |     ros::Publisher topic_pub = [01;31m[Knode_comms.advertise<std_msgs::String("itesm_topic", 1)[m[K; //(A donde se publicara, cantidad de mensajes a publicar)
+      |                                [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/publisher_node.dir/build.make:63: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/publisher_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rescue/share/rescue/cmake/rescueConfig-version.cmake

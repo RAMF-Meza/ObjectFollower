@@ -1,0 +1,8 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/opencv.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/opencv.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_rbg[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_rgb[m[K’?
+   50 |         [01;31m[Kpub_rbg[m[K.publish(cvi.toImageMsg());
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kpub_rgb[m[K
+make[2]: *** [CMakeFiles/opencv_node.dir/build.make:63: CMakeFiles/opencv_node.dir/src/opencv.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:178: CMakeFiles/opencv_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

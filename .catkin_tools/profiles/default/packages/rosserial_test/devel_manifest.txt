@@ -1,0 +1,5 @@
+rosserial/rosserial_test
+/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rosserial_test/cmake.lock /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/./cmake.lock
+/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rosserial_test/lib/pkgconfig/rosserial_test.pc /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/lib/pkgconfig/rosserial_test.pc
+/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig-version.cmake /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/share/rosserial_test/cmake/rosserial_testConfig-version.cmake
+/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig.cmake /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/share/rosserial_test/cmake/rosserial_testConfig.cmake

@@ -1,0 +1,23 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ has not been declared
+   22 |     [01;31m[Kimage_transport[m[K::ImageTransport imt(nodeh);     // -> Comunicador especial para OpenCV
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+   35 |     [01;31m[Kcv_bridge[m[K::CvImage cvi;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcvi[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv[m[K’?
+   36 |     [01;31m[Kcvi[m[K.header.frame_id = "RGB";        // Se da el nombre del tipo de mensaje
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kcv[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:37:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ has not been declared
+   37 |     cvi.encoding = [01;31m[Ksensor_msgs[m[K::image_encodings::BGR8;
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ has not been declared
+   40 |     [01;31m[Kimage_transport[m[K::Publisher pub_rgb = imt.advertise("/camera/img_raw", 1);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_rgb[m[K’ was not declared in this scope
+   48 |         [01;31m[Kpub_rgb[m[K.publish(cvi.toImageMsg());
+      |         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/reference_node.dir/build.make:63: CMakeFiles/reference_node.dir/src/reference_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/reference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

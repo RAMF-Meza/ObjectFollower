@@ -1,0 +1,7 @@
+[ 20%] Built target opencv_node
+[35m[1mScanning dependencies of target reference_node[0m
+[ 30%] [32m[1mLinking CXX executable /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rescue/lib/rescue/reference_node[0m
+[ 40%] Built target reference_node
+[ 60%] Built target hello_world_node
+[ 80%] Built target subscriber_node
+[100%] Built target publisher_node

@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/subscriber.cpp:1[m[K:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/subscriber.cpp:[m[K In function ‘[01m[Kvoid callback(const String&)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/subscriber.cpp:30:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst class std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kc_string[m[K’; did you mean ‘[01m[Kc_str[m[K’?
+   30 |     ROS_INFO("Recibi %s", msg.data.[01;31m[Kc_string[m[K());
+      |                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/subscriber.cpp:30:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   30 |     [01;36m[KROS_INFO[m[K("Recibi %s", msg.data.c_string());
+      |     [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/subscriber_node.dir/build.make:63: CMakeFiles/subscriber_node.dir/src/subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:380: CMakeFiles/subscriber_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

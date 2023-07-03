@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/devel/.private/rescue/setup.sh

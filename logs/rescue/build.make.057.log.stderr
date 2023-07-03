@@ -1,0 +1,14 @@
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:41:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msd[m[K’ has not been declared
+   41 |         msg.data = [01;31m[Kstd_msd[m[K::Int8(x_coor);
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:[m[K In function ‘[01m[Kint tracking()[m[K’:
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:93:36:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_comms[m[K’ was not declared in this scope
+   93 |         ros::Publisher topic_pub = [01;31m[Knode_comms[m[K.advertise<std_msgs::Int8>("reference_signal", 1);
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/student/Documents/RoboticaIndustrial/Proyecto/ros_ws/src/rescue/src/reference_node.cpp:93:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   93 |         ros::Publisher topic_pub = node_comms.advertise<std_msgs::Int8[01;31m[K>[m[K("reference_signal", 1);
+      |                                                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/reference_node.dir/build.make:63: CMakeFiles/reference_node.dir/src/reference_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/reference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
